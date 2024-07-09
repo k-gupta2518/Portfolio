@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khushi Gupta Portflio</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+
+</head>
+
+<body id="top">
+
+
+  <header class="header">
+
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link has-after">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link has-after">About</a>
+            </li>
+
+            <li>
+              <a href="#projects" class="navbar-link has-after">Projects</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link has-after"> Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#about" class="navbar-link" data-nav-link>About</a>
+        </li>
+
+        <li>
+          <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+  <main>
+    <article>
+
+      <section class="section hero" id="home" aria-label="hero" data-section>
+        <div class="container">
+
+              <div class="hero-card has-bg-image" style="background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Khushi Gupta
+                  </h1>
+                  <p class="price">Front-End Developer</p>
+
+                  <p class="hero-text">
+                    A passionate developer, based in India.
+                  </p>
+                </div>
+
+              </div>
+        </div>
+      </section>
+      
+      <section class="section banner" id="about" aria-label="banner" data-section>
+        <div class="container">
+
+          <ul class="banner-list">
+           
+
+            <li>
+              <div class="banner-card banner-card-1 has-before hover:shine">
+
+                <p class="container"> 
+                  <div container-my>
+                    I'm Khushi Gupta, a Computer Science Engineering student at Banasthali Vidyapith
+                  I have a strong foundation in front-end development (HTML, CSS, JavaScript), C++ (OOP), DSA, and MySQL, 
+                   along with basic knowledge in back-end development (Node.js, Express.js), C, OS, DCN, and Software Engineering
+                  I am a quick learner and adaptable, able to efficiently prioritize tasks and ensure timely project completion. 
+                  My effective communication skills enable me to articulate technical concepts clearly to diverse audiences, 
+                  while my proven ability to collaborate within cross-functional teams fosters a harmonious working environment. 
+                  With strong analytical skills and a proactive approach to identifying and addressing challenges, 
+                  I am adept at troubleshooting and finding innovative solutions.
+                </div></p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="banner-card banner-card-2 has-before hover:shine">
+                <img class="my-image" src="assets/IMG_20240312_212422.jpg">
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="section projects" id="projects" aria-label="projects" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">My Projects</h2>
+          </div>
+
+          <ul class="about-list">
+
+            <li>
+              <div class="about-card has-before hover:shine">
+                <a href="https://ecommerce-omega-sandy.vercel.app/" class="btn-link">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('assets/Screenshot\ 2024-07-05\ 005319.png')"></div>
+
+              </div>
+            </li>
+            <li>
+              <div class="about-card has-before hover:shine">
+
+                <a href="https://drumgame-lemon.vercel.app/" class="btn-link">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('assets/Screenshot\ 2024-07-05\ 005300.png')"></div>
+
+              </div>
+            </li>
+            <li>
+              <div class="about-card has-before hover:shine">
+                <a href="https://fun-sepia.vercel.app/" class="btn-link">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('assets/Screenshot\ 2024-07-05\ 005213.png')"></div>
+
+              </div>
+            </li>
+            <li>
+              <div class="about-card has-before hover:shine">
+
+                <a href="https://zomato-web-psi.vercel.app/" class="btn-link">
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('assets/Screenshot\ 2024-07-05\ 005232.png')"></div>
+
+              </div>
+            </li>
+          </ul>
+          
+      <section class="section feature" aria-label="feature" data-section>
+        <div class="container">
+                <p class="project-text">
+                  Each project in my portfolio reflects a key part of my coding journey. I've spent a lot of time learning, practicing, 
+                  and applying new skills in creating user-friendly and visually appealing websites. 
+                  Each project shows a challenge I faced and overcame, highlighting my growth as a developer. 
+                  This journey has been both tough and rewarding, fueling my passion for technology. 
+                  I'm proud of my ability to turn ideas into working, efficient, and attractive solutions, 
+                  and I'm excited to keep exploring and creating.
+                </p>
+
+              </div>
+        </div>
+  </article>
+  </main>
+  <footer class="footer" data-section id="contact">
+    <div class="container">
+      <div class="footer-list">
+
+          <p class="newsletter-title">Contact</p>
+
+          <p class="newsletter-text">
+            Get in touch with me 👇
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="text" name="email_address" placeholder="Enter your Name" required
+              class="contact-field">
+              <input type="email" name="email_address" placeholder="Enter your email address" required
+              class="contact-field">
+              <input type="text" name="email_address" placeholder="Share what's on your mind" required
+              class="contact-field">
+            <button type="submit" class="send">Send</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://github.com/k-gupta2518" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/khushi-gupta-983712256/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:kgupta2518@gmail.com" class="social-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+            <a href="tel:+918962863052" class="social-link">
+              <ion-icon name="call-outline"></ion-icon>
+            </a>            
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="script.js" defer></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
