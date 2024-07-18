@@ -139,10 +139,11 @@ body {
   }
   .my-image{
   height: 400px;
-  margin-top: -20%;
+  margin-top: -15%;
 }
   .container-my{
    align-self: center;
+   text-align: justify;
   }
   .h2-large {
     color: var(--black);
