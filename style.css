@@ -176,6 +176,61 @@ body {
     color: var(--white);
   }
   
+
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-container {
+    flex: 1 1 30%;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Center image vertically */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%; /* Make image take 100% of the container height */
+    object-fit: cover; /* Ensure image covers the area without distortion */
+    border-radius: 10px;
+}
+
+.text-container {
+    flex: 1 1 70%;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Center text vertically */
+}
+
+.text-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .portfolio-container {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    .image-container, .text-container {
+        flex: 1 1 100%;
+        padding: 10px 0;
+    }
+
+    .text-container p {
+        font-size: 1em;
+        line-height: 1.4;
+    }
+}
+
+
   .btn-primary:is(:hover, :focus) { background-color: var(--hoockers-green); }
   
   .btn-secondary {
@@ -555,9 +610,9 @@ body {
     margin-block: 10px 35px;
   }
   
-  .newsletter-form { position: relative;
-    width: 500px;
-    margin-left: -17px;
+  .newsletter-form { 
+    position: relative;
+    width: 40%;
   }
   
   .contact-field {
